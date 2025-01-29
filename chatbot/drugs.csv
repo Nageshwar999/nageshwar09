@@ -1,0 +1,96 @@
+Drug Name,Generic Name,Brand Name,Drug Category,Dosage Form,Dosage Strength,Route of Administration,Indications (Uses),Side Effects,Manufacturer,Price (per unit)
+Paracetamol,Paracetamol,Tylenol, Analgesic, Tablet,500 mg,Oral,Pain relief,Fever reduction,Johnson & Johnson,$0.10
+Paracetamol,Paracetamol,Tylenol, Analgesic, Tablet,500 mg,Oral,Fever,Fever reduction,Johnson & Johnson,$0.10
+Ibuprofen,Ibuprofen,Advil,NSAID,Tablet,200 mg,Oral,Pain relief,Inflammation reduction,Pfizer,$0.20
+Atorvastatin,Atorvastatin,Lipitor,Statin,Tablet,10 mg,Oral,High cholesterol,Muscle pain,Pfizer,$0.30
+Lisinopril,Lisinopril,Zestril,ACE Inhibitor,Tablet,10 mg,Oral,High blood pressure,Cough,AstraZeneca,$0.25
+Amlodipine,Amlodipine,Norvasc,Calcium Channel Blocker,Tablet,5 mg,Oral,High blood pressure,Swelling,Pfizer,$0.20
+Metformin,Metformin,Glucophage,Biguanide,Tablet,500 mg,Oral,Type 2 diabetes,Nausea,Bristol-Myers Squibb,$0.15
+Simvastatin,Simvastatin,Zocor,Statin,Tablet,20 mg,Oral,High cholesterol,Muscle pain,Merck & Co.,$0.28
+Omeprazole,Omeprazole,Prilosec,Proton Pump Inhibitor,Capsule,20 mg,Oral,GERD,Headache,AstraZeneca,$0.35
+Losartan,Losartan,Cozaar,ARB,Tablet,50 mg,Oral,High blood pressure,Dizziness,Merck & Co.,$0.40
+Gabapentin,Gabapentin,Neurontin,Anticonvulsant,Capsule,300 mg,Oral,Nerve pain,Drowsiness,Pfizer,$0.45
+Hydrochlorothiazide,Hydrochlorothiazide,Microzide,Diuretic,Tablet,25 mg,Oral,High blood pressure,Frequent urination,Watson Pharmaceuticals,$0.10
+Sertraline,Sertraline,Zoloft,SSRI,Tablet,50 mg,Oral,Depression,Nausea,Pfizer,$0.50
+Furosemide,Furosemide,Lasix,Diuretic,Tablet,40 mg,Oral,Edema,Dehydration,Sanofi,$0.12
+Metoprolol,Metoprolol,Lopressor,Beta Blocker,Tablet,50 mg,Oral,High blood pressure,Fatigue,Novartis,$0.18
+Pantoprazole,Pantoprazole,Protonix,Proton Pump Inhibitor,Tablet,40 mg,Oral,GERD,Headache,Wyeth,$0.30
+Escitalopram,Escitalopram,Lexapro,SSRI,Tablet,10 mg,Oral,Anxiety,Nausea,Forest Laboratories,$0.55
+Prednisone,Prednisone,Deltasone,Corticosteroid,Tablet,20 mg,Oral,Inflammation,Weight gain,Various,$0.25
+Amoxicillin,Amoxicillin,Amoxil,Antibiotic,Capsule,500 mg,Oral,Bacterial infections,Rash,GlaxoSmithKline,$0.10
+Clopidogrel,Clopidogrel,Plavix,Antiplatelet,Tablet,75 mg,Oral,Prevent blood clots,Bleeding,Sanofi,$0.60
+Montelukast,Montelukast,Singulair,Leukotriene Inhibitor,Tablet,10 mg,Oral,Asthma,Headache,Merck & Co.,$0.35
+Rosuvastatin,Rosuvastatin,Crestor,Statin,Tablet,10 mg,Oral,High cholesterol,Muscle pain,AstraZeneca,$0.50
+Propranolol,Propranolol,Inderal,Beta Blocker,Tablet,40 mg,Oral,High blood pressure,Fatigue,Wyeth,$0.20
+Citalopram,Citalopram,Celexa,SSRI,Tablet,20 mg,Oral,Depression,Dry mouth,Forest Laboratories,$0.45
+Alprazolam,Alprazolam,Xanax,Benzodiazepine,Tablet,0.5 mg,Oral,Anxiety,Drowsiness,Upjohn,$0.25
+Warfarin,Warfarin,Coumadin,Anticoagulant,Tablet,5 mg,Oral,Prevent blood clots,Bleeding,Bristol-Myers Squibb,$0.15
+Meloxicam,Meloxicam,Mobic,NSAID,Tablet,15 mg,Oral,Arthritis,Stomach upset,Boehringer Ingelheim,$0.30
+Clonazepam,Clonazepam,Klonopin,Benzodiazepine,Tablet,1 mg,Oral,Seizures,Drowsiness,Roche,$0.40
+Cyclobenzaprine,Cyclobenzaprine,Flexeril,Muscle Relaxant,Tablet,10 mg,Oral,Muscle spasms,Drowsiness,McNeil,$0.20
+Tamsulosin,Tamsulosin,Flomax,Alpha Blocker,Capsule,0.4 mg,Oral,BPH,Dizziness,Boehringer Ingelheim,$0.35
+Duloxetine,Duloxetine,Cymbalta,SNRI,Capsule,60 mg,Oral,Depression,Nausea,Eli Lilly,$0.70
+Fluoxetine,Fluoxetine,Prozac,SSRI,Capsule,20 mg,Oral,Depression,Insomnia,Eli Lilly,$0.50
+Venlafaxine,Venlafaxine,Effexor,SNRI,Tablet,75 mg,Oral,Depression,Sweating,Wyeth,$0.60
+Levothyroxine,Levothyroxine,Synthroid,Thyroid Hormone,Tablet,50 mcg,Oral,Hypothyroidism,Palpitations,AbbVie,$0.25
+Albuterol,Albuterol,Proventil,Bronchodilator,Inhaler,90 mcg/Inhalation,Inhalation,Asthma,Tremors,Teva,$0.30
+Hydrocodone/Acetaminophen,Hydrocodone/Acetaminophen,Vicodin,Analgesic,Tablet,5 mg/325 mg,Oral,Pain relief,Drowsiness,AbbVie,$0.50
+Zolpidem,Zolpidem,Ambien,Sedative,Tablet,10 mg,Oral,Insomnia,Dizziness,Sanofi,$0.40
+Tramadol,Tramadol,Ultram,Analgesic,Tablet,50 mg,Oral,Pain relief,Nausea,Janssen,$0.35
+Clindamycin,Clindamycin,Cleocin,Antibiotic,Capsule,300 mg,Oral,Bacterial infections,Diarrhea,Pharmacia,$0.45
+Cetirizine,Cetirizine,Zyrtec,Antihistamine,Tablet,10 mg,Oral,Allergies,Drowsiness,Johnson & Johnson,$0.20
+Lorazepam,Lorazepam,Ativan,Benzodiazepine,Tablet,1 mg,Oral,Anxiety,Drowsiness,Wyeth,$0.25
+Esomeprazole,Esomeprazole,Nexium,Proton Pump Inhibitor,Capsule,20 mg,Oral,GERD,Headache,AstraZeneca,$0.50
+Azithromycin,Azithromycin,Zithromax,Antibiotic,Tablet,500 mg,Oral,Bacterial infections,Diarrhea,Pfizer,$0.60
+Doxycycline,Doxycycline,Vibramycin,Antibiotic,Capsule,100 mg,Oral,Bacterial infections,Photosensitivity,Pfizer,$0.40
+Allopurinol,Allopurinol,Zyloprim,Antigout,Tablet,300 mg,Oral,Gout,Rash,Prometheus,$0.30
+Spironolactone,Spironolactone,Aldactone,Diuretic,Tablet,25 mg,Oral,Heart failure,Hyperkalemia,Pfizer,$0.25
+Fenofibrate,Fenofibrate,Tricor,Fibrate,Tablet,145 mg,Oral,High cholesterol,Abdominal pain,AbbVie,$0.55
+Sitagliptin,Sitagliptin,Januvia,DPP-4 Inhibitor,Tablet,100 mg,Oral,Type 2 diabetes,Headache,Merck & Co.,$0.70
+Insulin Glargine,Insulin Glargine,Lantus,Insulin,Injection,100 units/mL,Subcutaneous,Diabetes,Hypoglycemia,Sanofi,$0.80
+Ranitidine,Ranitidine,Zantac,H2 Antagonist,Tablet,150 mg,Oral,Ulcers,Headache,GlaxoSmithKline,$0.25
+Bupropion,Bupropion,Wellbutrin,NDRI,Tablet,150 mg,Oral,Depression,Insomnia,GlaxoSmithKline,$0.60
+Trazodone,Trazodone,Desyrel,Antidepressant,Tablet,50 mg,Oral,Depression,Drowsiness,Bristol-Myers Squibb,$0.20
+Carvedilol,Carvedilol,Coreg,Beta Blocker,Tablet,12.5 mg,Oral,Heart failure,Dizziness,GlaxoSmithKline,$0.35
+Celecoxib,Celecoxib,Celebrex,NSAID,Capsule,200 mg,Oral,Pain relief,Stomach upset,Pfizer,$0.50
+Mirtazapine,Mirtazapine,Remeron,Antidepressant,Tablet,30 mg,Oral,Depression,Weight gain,Organon,$0.45
+Aripiprazole,Aripiprazole,Abilify,Antipsychotic,Tablet,10 mg,Oral,Schizophrenia,Akathisia,Otsuka,$0.75
+Valsartan,Valsartan,Diovan,ARB,Tablet,80 mg,Oral,High blood pressure,Dizziness,Novartis,$0.40
+Olmesartan,Olmesartan,Benicar,ARB,Tablet,20 mg,Oral,High blood pressure,Dizziness,Daiichi Sankyo,$0.45
+Donepezil,Donepezil,Aricept,Cholinesterase Inhibitor,Tablet,10 mg,Oral,Alzheimer's disease,Nausea,Eisai,$0.60
+Latanoprost,Latanoprost,Xalatan,Antiglaucoma,Eye Drops,0.005%,Ophthalmic,Glaucoma,Eye irritation,Pfizer,$0.70
+Risperidone,Risperidone,Risperdal,Antipsychotic,Tablet,2 mg,Oral,Schizophrenia,Weight gain,Janssen,$0.50
+Levofloxacin,Levofloxacin,Levaquin,Antibiotic,Tablet,500 mg,Oral,Bacterial infections,Tendonitis,Johnson & Johnson,$0.65
+Atenolol,Atenolol,Tenormin,Beta Blocker,Tablet,50 mg,Oral,High blood pressure,Fatigue,AstraZeneca,$0.20
+Hydroxychloroquine,Hydroxychloroquine,Plaquenil,Antimalarial,Tablet,200 mg,Oral,Rheumatoid arthritis,Retinopathy,Sanofi,$0.50
+Methotrexate,Methotrexate,Trexall,Antimetabolite,Tablet,2.5 mg,Oral,Rheumatoid arthritis,Liver toxicity,Teva,$0.25
+Loratadine,Loratadine,Claritin,Antihistamine,Tablet,10 mg,Oral,Allergies,Drowsiness,Bayer,$0.20
+Famotidine,Famotidine,Pepcid,H2 Antagonist,Tablet,20 mg,Oral,Ulcers,Headache,Johnson & Johnson,$0.15
+Diltiazem,Diltiazem,Cardizem,Calcium Channel Blocker,Tablet,30 mg,Oral,High blood pressure,Dizziness,Biogen,$0.30
+Topiramate,Topiramate,Topamax,Anticonvulsant,Tablet,25 mg,Oral,Seizures,Weight loss,Johnson & Johnson,$0.40
+Quetiapine,Quetiapine,Seroquel,Antipsychotic,Tablet,100 mg,Oral,Schizophrenia,Drowsiness,AstraZeneca,$0.50
+Valacyclovir,Valacyclovir,Valtrex,Antiviral,Tablet,500 mg,Oral,Herpes infections,Headache,GlaxoSmithKline,$0.60
+Enalapril,Enalapril,Vasotec,ACE Inhibitor,Tablet,10 mg,Oral,High blood pressure,Cough,Merck & Co.,$0.25
+Glipizide,Glipizide,Glucotrol,Sulfonylurea,Tablet,5 mg,Oral,Type 2 diabetes,Hypoglycemia,Pfizer,$0.20
+Sumatriptan,Sumatriptan,Imitrex,Triptan,Tablet,50 mg,Oral,Migraine,Nausea,GlaxoSmithKline,$0.45
+Pioglitazone,Pioglitazone,Actos,Thiazolidinedione,Tablet,15 mg,Oral,Type 2 diabetes,Weight gain,Takeda,$0.35
+Ezetimibe,Ezetimibe,Zetia,Cholesterol Absorption Inhibitor,Tablet,10 mg,Oral,High cholesterol,Muscle pain,Merck & Co.,$0.40
+Buspirone,Buspirone,Buspar,Anxiolytic,Tablet,10 mg,Oral,Anxiety,Dizziness,Bristol-Myers Squibb,$0.25
+Mometasone,Mometasone,Nasonex,Corticosteroid,Nasal Spray,50 mcg/Spray,Nasal,Allergic rhinitis,Nosebleed,Merck & Co.,$0.30
+Aripiprazole,Aripiprazole,Abilify,Antipsychotic,Tablet,10 mg,Oral,Schizophrenia,Akathisia,Otsuka,$0.75
+Lisdexamfetamine,Lisdexamfetamine,Vyvanse,Stimulant,Capsule,30 mg,Oral,ADHD,Insomnia,Shire,$0.70
+Tiotropium,Tiotropium,Spiriva,Anticholinergic,Inhaler,18 mcg/Inhalation,Inhalation,COPD,Dry mouth,Boehringer Ingelheim,$0.65
+Budesonide/Formoterol,Budesonide/Formoterol,Symbicort,Corticosteroid/Bronchodilator,Inhaler,160 mcg/4.5 mcg,Inhalation,Asthma,Thrush,AstraZeneca,$0.80
+Divalproex,Divalproex,Depakote,Anticonvulsant,Tablet,250 mg,Oral,Seizures,Weight gain,AbbVie,$0.50
+Hydralazine,Hydralazine,Apresoline,Vasodilator,Tablet,25 mg,Oral,High blood pressure,Headache,Novartis,$0.20
+Levetiracetam,Levetiracetam,Keppra,Anticonvulsant,Tablet,500 mg,Oral,Seizures,Drowsiness,UCB Pharma,$0.45
+Gemfibrozil,Gemfibrozil,Lopid,Fibrate,Tablet,600 mg,Oral,High cholesterol,Stomach upset,Pfizer,$0.35
+Glyburide,Glyburide,Diabeta,Sulfonylurea,Tablet,5 mg,Oral,Type 2 diabetes,Hypoglycemia,Sanofi,$0.25
+Olanzapine,Olanzapine,Zyprexa,Antipsychotic,Tablet,10 mg,Oral,Schizophrenia,Weight gain,Eli Lilly,$0.55
+Tolterodine,Tolterodine,Detrol,Antimuscarinic,Tablet,2 mg,Oral,Overactive bladder,Dry mouth,Pfizer,$0.40
+Ranitidine,Ranitidine,Zantac,H2 Antagonist,Tablet,150 mg,Oral,Ulcers,Headache,GlaxoSmithKline,$0.25
+Benazepril,Benazepril,Lotensin,ACE Inhibitor,Tablet,10 mg,Oral,High blood pressure,Cough,Novartis,$0.20
+Lamotrigine,Lamotrigine,Lamictal,Anticonvulsant,Tablet,100 mg,Oral,Seizures,Rash,GlaxoSmithKline,$0.50
+Donepezil,Donepezil,Aricept,Cholinesterase Inhibitor,Tablet,10 mg,Oral,Alzheimer's disease,Nausea,Eisai,$0.60
+Isosorbide Mononitrate,Isosorbide Mononitrate,Imdur,Nitrate,Tablet,30 mg,Oral,Angina,Headache,AstraZeneca,$0.30
+ 

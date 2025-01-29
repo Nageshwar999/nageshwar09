@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drug Information Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .chat-container {
+            width: 400px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .chat-box {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        .chat-input {
+            display: flex;
+            border-top: 1px solid #ddd;
+        }
+        .chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+        .chat-input button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        .chat-input button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin: 10px 0;
+            display: flex;
+        }
+        .message.user {
+            justify-content: flex-end;
+        }
+        .message.bot {
+            justify-content: flex-start;
+        }
+        .message .content {
+            max-width: 70%;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .message.user .content {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .message.bot .content {
+            background-color: #f1f1f1;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Drug Information Chatbot</h2>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <!-- Chat messages will appear here -->
+            {% if drug_info %}
+                <div class="message bot">
+                    <div class="content">
+                        <h3>Information for {{ drug_info['Drug Name'] }}</h3>
+                        <ul>
+                            <li><strong>Generic Name:</strong> {{ drug_info['Generic Name'] }}</li>
+                            <li><strong>Brand Name:</strong> {{ drug_info['Brand Name'] }}</li>
+                            <li><strong>Drug Category:</strong> {{ drug_info['Drug Category'] }}</li>
+                            <li><strong>Dosage Form:</strong> {{ drug_info['Dosage Form'] }}</li>
+                            <li><strong>Dosage Strength:</strong> {{ drug_info['Dosage Strength'] }}</li>
+                            <li><strong>Route of Administration:</strong> {{ drug_info['Route of Administration'] }}</li>
+                            <li><strong>Indications (Uses):</strong> {{ drug_info['Indications (Uses)'] }}</li>
+                            <li><strong>Side Effects:</strong> {{ drug_info['Side Effects'] }}</li>
+                            <li><strong>Manufacturer:</strong> {{ drug_info['Manufacturer'] }}</li>
+                            <li><strong>Price (per unit):</strong> {{ drug_info['Price (per unit)'] }}</li>
+                        </ul>
+                    </div>
+                </div>
+            {% elif disease_info %}
+                <div class="message bot">
+                    <div class="content">
+                        <h3>Predicted Disease: {{ disease_info['Disease'] }}</h3>
+                        <ul>
+                            <li><strong>Common Symptoms:</strong> {{ disease_info['Symptoms'] }}</li>
+                            <li><strong>Recommended Drugs:</strong>
+                                <ul>
+                                    {% for drug in drugs %}
+                                    <li>{{ drug['Drug Name'] }} ({{ drug['Brand Name'] }}) - {{ drug['Indications (Uses)'] }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            {% elif request.method == 'POST' %}
+                <div class="message bot">
+                    <div class="content">
+                        <p>No information found for the entered data.</p>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+        <div class="chat-input">
+            <form method="post" style="display: flex; width: 100%;">
+                <select name="option" required>
+                    <option value="drug_info">Drug Information</option>
+                    <option value="disease_prediction">Disease Prediction</option>
+                </select>
+                <input type="text" id="input" name="input_data" placeholder="Enter Drug Name or Symptoms..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
